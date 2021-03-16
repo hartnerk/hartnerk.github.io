@@ -87,7 +87,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
 }
 
 abbr[title],
@@ -10252,9 +10251,10 @@ body {
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding-bottom: 10rem ;
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 1.8rem;
 }
 
 .projects-section {
@@ -10342,4 +10342,106 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+ .section-2 {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0 10rem 0;
+  background-color: rgb(129, 157, 173);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section-2-heading {
+  margin-bottom: 8rem;
+}
+
+.sub-heading {
+  font-size: 4.4rem;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  margin-bottom: 6rem;
+  border-bottom: .3rem solid #333;
+  text-shadow: .2rem .2rem .5rem #555;
+}
+
+.card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card {
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  padding: 15px;
+  margin: 10px;
+  width: 11em;
+  height: 13em;
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.3s ease-in;
+}
+
+.services {
+  width: 100%;
+  height: 30vh;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.service {
+  text-align: center;
+}
+
+.service:first-child,
+.service:last-child {
+  align-self: flex-start;
+}
+
+.service i {
+  font-size: 10rem;
+  color: #888;
+  margin-bottom: 2rem;
+  text-shadow: .1rem .1rem .5rem #555;
+}
+
+.service h2 {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #b9d7ea;
+  width: 25rem;
+  letter-spacing: .2rem;
+  transform: skew(-10deg);
+  box-shadow: .2rem .2rem .5rem #555;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.service h2 {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #b9d7ea;
+  width: 25rem;
+  letter-spacing: .2rem;
+  transform: skew(-10deg);
+  box-shadow: .2rem .2rem .5rem #555;
 }
